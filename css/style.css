@@ -160,6 +160,7 @@ main > div > img {
     font-size: 15px;
     background-color: rgb(241, 241, 241);
     padding: 30px;
+    text-align: center;
     grid-column-start: 1;
     grid-column-end: 3;
 }
@@ -168,6 +169,7 @@ main > div > img {
     font-size: 20px;
     align-items: center;
     padding: 30px;
+    text-align: center;
     grid-column-start: 1;
     grid-column-end: 3;
 }
