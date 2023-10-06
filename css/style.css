@@ -96,6 +96,7 @@ main {
     display : grid;
     height: 540px;
     width: 340px;
+    margin: auto;
     background-color: #ffffff;
     grid-template-columns : 1fr 1fr;
     grid-template-rows : 1fr 6fr 2fr 5fr 3fr ;
@@ -105,7 +106,6 @@ main > div {
     /* border : 1px dashed rgb(181, 181, 255); */
     font-size: 10px;
     color: #000000;
-    margin : 0px;
     display: grid;
     flex-direction: row;
     justify-content: center ;
@@ -195,7 +195,11 @@ main > div > img {
 
 .name {
     font-size: 20px;
-    padding: 0 0 10px 0
+    padding: 0 0 10px 0;
     grid-column-start: 1;
     grid-column-end: 3;
+}
+
+.hourly {
+    color: grey
 }
